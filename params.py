@@ -1,7 +1,7 @@
-# # coolcats
-project_name = 'coolcats'
-project_contract = '0x1a92f7381b9f03921564a437210bb9396471050c'
-n = 9999
+# # boredapeyachtclub
+project_name = 'boredapeyachtclub'
+project_contract = '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d'
+n = 10000
 
 # Max concurrent image requests
 n_workers = 5
