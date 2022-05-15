@@ -41,10 +41,10 @@ async def worker(session, queue, metadata, pbar):
                 else:
                     # Occasionaly some download fails, check manually the url and try again.
                     logger(f' > ERROR for url: {image_url}, response status = {response.status}')
-                    metadata_df.loc[id]['status'] = False
+                    metadata_df.loc[id, 'status'] = False
 
             except Exception as e:
-                metadata_df.loc[id]['status'] = False
+                metadata_df.loc[id, 'status'] = False
                 logger(e)
 
         if id % 100 == 0:
