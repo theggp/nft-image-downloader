@@ -1,0 +1,7 @@
+aiofiles==0.8.0
+aiohttp==3.8.1
+certifi==2021.10.8
+pandas==1.4.2
+pip-chill==1.0.1
+tqdm==4.64.0
+wincertstore==0.2
